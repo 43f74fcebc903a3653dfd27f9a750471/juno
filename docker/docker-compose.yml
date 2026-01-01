@@ -1,0 +1,22 @@
+services:
+  chrome:
+    container_name: chrome
+    depends_on:
+      - warp
+    env_file:
+      - chrome.env
+    image: browserless/chrome:1.60-chrome-stable
+    ports:
+      - "48324:3000"
+    restart: always
+    tmpfs:
+      - /chrome
+      - /tmp
+    
+
+  warp:
+    container_name: warp
+    image: yarmak/warp-proxy:latest
+    ports:
+      - "40000:40000"
+    restart: always

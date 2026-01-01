@@ -1,0 +1,3 @@
+git+https://github.com/pydantic/pydantic@main#egg=pydantic
+aiohttp
+ujson

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <meta name="color-scheme" content="light dark">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2b2d31">
+    <title>juno</title>
+    <meta name="description" content="A modern, minimalistic, and powerful Discord bot.">
+    <meta name="og:title" content="juno">
+    <meta name="og:description" content="A modern, minimalistic, and powerful Discord bot.">
+    <link href='https://fonts.googleapis.com/css?family=Roboto|VT323|Kranky|Poppins' rel='stylesheet'>
+    <style>
+        html, body {
+            overflow: hidden;
+            margin: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-size: cover;
+            text-align: center;
+            font-family: 'VT323', monospace;
+        }
+
+        .overlay {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
+        }
+
+        .glitch {
+            font-weight: bold;
+            font-size: 12vw; 
+            color: #B0B0B0; 
+            text-shadow: 0.05em 0 0 rgba(176, 176, 176, 0.3), -0.03em -0.04em 0 rgba(176, 176, 176, 0.3), 0.025em 0.04em 0 rgba(176, 176, 176, 0.3);
+            animation: glitch 725ms infinite;
+            user-select: none;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        .glitch span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.75;
+        }
+
+        .glitch span:first-child {
+            animation: glitch 700ms infinite;
+            clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+            transform: translate(-0.04em, -0.03em);
+        }
+
+        .glitch span:last-child {
+            animation: glitch 575ms infinite;
+            clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+            transform: translate(0.04em, 0.03em);
+        }
+
+        @keyframes glitch {
+            0%, 15% {
+                text-shadow: 0.05em 0 0 rgba(176, 176, 176, 0.3), -0.03em -0.04em 0 rgba(176, 176, 176, 0.3), 0.025em 0.04em 0 rgba(176, 176, 176, 0.3);
+            }
+            16%, 49% {
+                text-shadow: -0.05em -0.025em 0 rgba(176, 176, 176, 0.3), 0.025em 0.035em 0 rgba(176, 176, 176, 0.3), -0.05em -0.05em 0 rgba(176, 176, 176, 0.3);
+            }
+            50%, 99% {
+                text-shadow: 0.05em 0.035em 0 rgba(176, 176, 176, 0.3), 0.03em 0 0 rgba(176, 176, 176, 0.3), 0 -0.04em 0 rgba(176, 176, 176, 0.3);
+            }
+            100% {
+                text-shadow: -0.05em 0 0 rgba(176, 176, 176, 0.3), -0.025em -0.04em 0 rgba(176, 176, 176, 0.3), -0.04em -0.025em 0 rgba(176, 176, 176, 0.3);
+            }
+        }
+
+        .subtext {
+            font-size: 1.2em; 
+            color: #B0B0B0;
+            text-decoration: underline;
+            margin-top: 0.5em; 
+        }
+
+        .subtext:hover {
+            text-decoration: underline;
+        }
+
+         @media (max-width: 768px) {
+            .glitch {
+                font-size: 20vw;
+            }
+
+            .subtext {
+                margin-top: 0.3em; 
+                font-size: 1em; 
+            }
+
+            .overlay {
+                padding: 1em; 
+            }
+        }
+
+        .overlay {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+     <div class="overlay noselect">
+        <p class="glitch" id="glitch">
+            <span aria-hidden="true">juno</span>
+            juno
+            <span aria-hidden="true">juno</span>
+        </p>
+        <a href="/commands" class="subtext">commands</a>
+        <a href="https://discord.gg/UNVDdrZHMR" class="subtext">support server</a>
+    </div>
+</body>
+</html>

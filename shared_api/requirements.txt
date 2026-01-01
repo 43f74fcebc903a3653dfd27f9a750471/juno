@@ -1,0 +1,15 @@
+git+https://github.com/Microsoft/playwright-python
+git+https://github.com/pydantic/pydantic@main#egg=pydantic
+uvicorn
+fastapi
+ujson
+aiohttp
+aiodns
+cashews
+xxhash
+aiofiles
+python-dotenv
+beautifulsoup4
+lxml
+filetype
+loguru

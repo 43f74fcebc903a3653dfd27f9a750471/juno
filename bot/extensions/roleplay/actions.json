@@ -1,0 +1,266 @@
+{
+    "airkiss": {
+      "description": "Kiss someone in the air.",
+      "message": "blew a kiss to"
+    },
+    "angrystare": {
+      "description": "Give someone an angry look.",
+      "message": "angrily stared at"
+    },
+    "bite": {
+      "description": "Playfully bite someone.",
+      "message": "playfully bit"
+    },
+    "bleh": {
+      "description": "Show dislike or disgust.",
+      "message": "made a bleh face at"
+    },
+    "blush": {
+      "description": "Show embarrassment or shyness.",
+      "message": "blushed at"
+    },
+    "brofist": {
+      "description": "Give a friendly fist bump.",
+      "message": "gave a brofist to"
+    },
+    "celebrate": {
+      "description": "Express joy or triumph.",
+      "message": "celebrated with"
+    },
+    "cheers": {
+      "description": "Raise a glass in celebration.",
+      "message": "cheered with"
+    },
+    "clap": {
+      "description": "Applaud someone or something.",
+      "message": "clapped for"
+    },
+    "confused": {
+      "description": "Show bewilderment or puzzlement.",
+      "message": "looked confused at"
+    },
+    "cool": {
+      "description": "Act or look impressive.",
+      "message": "looked cool for"
+    },
+    "cry": {
+      "description": "Shed tears or express sadness.",
+      "message": "cried with"
+    },
+    "cuddle": {
+      "description": "Hold close in a warm embrace.",
+      "message": "cuddled with"
+    },
+    "dance": {
+      "description": "Move rhythmically to music.",
+      "message": "danced with"
+    },
+    "drool": {
+      "description": "Salivate excessively.",
+      "message": "drooled over"
+    },
+    "evillaugh": {
+      "description": "Laugh in a mischievous or villainous manner.",
+      "message": "laughed evilly at"
+    },
+    "facepalm": {
+      "description": "Cover face with hand in exasperation.",
+      "message": "facepalmed at"
+    },
+    "handhold": {
+      "description": "Hold hands affectionately.",
+      "message": "held hands with"
+    },
+    "happy": {
+      "description": "Express joy or contentment.",
+      "message": "was happy with"
+    },
+    "headbang": {
+      "description": "Violently shake head to music.",
+      "message": "headbanged with"
+    },
+    "hug": {
+      "description": "Embrace someone warmly.",
+      "message": "hugged"
+    },
+    "kiss": {
+      "description": "Touch with the lips as a sign of affection.",
+      "message": "kissed"
+    },
+    "laugh": {
+      "description": "Express amusement or joy.",
+      "message": "laughed with"
+    },
+    "lick": {
+      "description": "Pass tongue over playfully.",
+      "message": "licked"
+    },
+    "love": {
+      "description": "Express deep affection.",
+      "message": "showed love to"
+    },
+    "mad": {
+      "description": "Show anger or frustration.",
+      "message": "got mad at"
+    },
+    "nervous": {
+      "description": "Display anxiety or unease.",
+      "message": "got nervous around"
+    },
+    "no": {
+      "description": "Express disagreement or refusal.",
+      "message": "said no to"
+    },
+    "nom": {
+      "description": "Eat or chew enthusiastically.",
+      "message": "nom-nommed on"
+    },
+    "nosebleed": {
+      "description": "React with extreme excitement.",
+      "message": "got a nosebleed over"
+    },
+    "nuzzle": {
+      "description": "Rub nose and face affectionately.",
+      "message": "nuzzled"
+    },
+    "nyah": {
+      "description": "Playfully stick out tongue.",
+      "message": "said nyah to"
+    },
+    "pat": {
+      "description": "Gently touch as a sign of affection.",
+      "message": "patted"
+    },
+    "peek": {
+      "description": "Look at quickly or furtively.",
+      "message": "peeked at"
+    },
+    "pinch": {
+      "description": "Squeeze between finger and thumb.",
+      "message": "pinched"
+    },
+    "poke": {
+      "description": "Jab or prod playfully.",
+      "message": "poked"
+    },
+    "pout": {
+      "description": "Push lips forward as an expression of displeasure.",
+      "message": "pouted at"
+    },
+    "punch": {
+      "description": "Strike with fist playfully.",
+      "message": "playfully punched"
+    },
+    "roll": {
+      "description": "Move by turning over and over.",
+      "message": "rolled with"
+    },
+    "sad": {
+      "description": "Express sorrow or unhappiness.",
+      "message": "felt sad with"
+    },
+    "scared": {
+      "description": "Show fear or alarm.",
+      "message": "got scared of"
+    },
+    "shout": {
+      "description": "Yell or call loudly.",
+      "message": "shouted at"
+    },
+    "shrug": {
+      "description": "Raise shoulders to express doubt or indifference.",
+      "message": "shrugged at"
+    },
+    "shy": {
+      "description": "Show timidity or bashfulness.",
+      "message": "got shy around"
+    },
+    "sigh": {
+      "description": "Emit a long breath as expression of sadness or relief.",
+      "message": "sighed at"
+    },
+    "sip": {
+      "description": "Drink in small quantities.",
+      "message": "sipped with"
+    },
+    "slap": {
+      "description": "Strike with open hand, usually playfully.",
+      "message": "playfully slapped"
+    },
+    "sleep": {
+      "description": "Be in a state of slumber.",
+      "message": "fell asleep on"
+    },
+    "slowclap": {
+      "description": "Clap hands slowly, often sarcastically.",
+      "message": "slow clapped for"
+    },
+    "smack": {
+      "description": "Strike sharply, often with sound.",
+      "message": "smacked"
+    },
+    "smile": {
+      "description": "Form facial expression of pleasure or amusement.",
+      "message": "smiled at"
+    },
+    "smug": {
+      "description": "Show excessive pride or self-satisfaction.",
+      "message": "looked smug at"
+    },
+    "sneeze": {
+      "description": "Make a sudden involuntary expulsion of air.",
+      "message": "sneezed on"
+    },
+    "sorry": {
+      "description": "Express regret or apologize.",
+      "message": "apologized to"
+    },
+    "stare": {
+      "description": "Look fixedly or vacantly at someone.",
+      "message": "stared at"
+    },
+    "surprised": {
+      "description": "Feel or show astonishment.",
+      "message": "was surprised by"
+    },
+    "sweat": {
+      "description": "Show nervousness or exertion.",
+      "message": "sweated nervously at"
+    },
+    "thumbsup": {
+      "description": "Show approval or encouragement.",
+      "message": "gave a thumbs up to"
+    },
+    "tickle": {
+      "description": "Touch lightly to cause laughter.",
+      "message": "tickled"
+    },
+    "tired": {
+      "description": "Show fatigue or weariness.",
+      "message": "felt tired with"
+    },
+    "wave": {
+      "description": "Move hand to and fro in greeting.",
+      "message": "waved at"
+    },
+    "wink": {
+      "description": "Close and open one eye quickly.",
+      "message": "winked at"
+    },
+    "woah": {
+      "description": "Express surprise or amazement.",
+      "message": "said woah to"
+    },
+    "yawn": {
+      "description": "Open mouth wide due to tiredness.",
+      "message": "yawned at"
+    },
+    "yay": {
+      "description": "Express triumph or approval.",
+      "message": "cheered yay for"
+    },
+    "yes": {
+      "description": "Express agreement or acceptance.",
+      "message": "said yes to"
+    }
+  }

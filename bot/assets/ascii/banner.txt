@@ -1,0 +1,5 @@
+  ${purple} ▐▄▄▄▄• ▄▌ ▐ ▄          ${bold_white} ${juno} (${juno_version})
+  ${purple}  ·███▪██▌•█▌▐█▪        ${bold_white} ${guilds} guilds with ${users} users
+  ${purple}▪▄ ███▌▐█▌▐█▐▐▌ ▄█▀▄    ${bold_white} ${commands} commands across ${cogs} cogs
+  ${purple}▐▌▐█▌▐█▄█▌██▐█▌▐█▌.▐▌   ${bold_white} ${db_version} (PID ${db_pid})
+  ${purple} ▀▀▀• ▀▀▀ ▀▀ █▪ ▀█▄▀▪   ${bold_white} ${backend_url}${reset}
